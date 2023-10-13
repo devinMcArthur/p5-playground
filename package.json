@@ -1,0 +1,17 @@
+{
+  "name": "flow-field",
+  "module": "server.ts",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "nodemon": "^3.0.1"
+  }
+}
